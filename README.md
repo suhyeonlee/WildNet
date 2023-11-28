@@ -151,7 +151,7 @@ __C.DATASET.ImageNet_DIR = <YOUR_ImageNet_PATH>
 <path_to_wildnet>$ CUDA_VISIBLE_DEVICES=0,1 ./scripts/train_wildnet_r50os16_gtav.sh
 ```
 
-6. You can download our ResNet-50 model at [Google Drive](https://drive.google.com/file/d/1O4QXQqYq-vuukQc5HGZlun914FuFf13a/view) and validate pretrained model with the following command.
+6. You can download our ResNet-50 model at [Google Drive](https://drive.google.com/file/d/16V_cWtVbJuJoQ-DJq4Yui7Umf4wggemu/view) and validate pretrained model with the following command.
 ```
 <path_to_wildnet>$ CUDA_VISIBLE_DEVICES=0,1 ./scripts/valid_wildnet_r50os16_gtav.sh <weight_file_location>
 ```
